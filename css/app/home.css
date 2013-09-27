@@ -1,0 +1,40 @@
+.carousel .item {
+    -webkit-transition: opacity 3s;
+    -moz-transition: opacity 3s;
+    -ms-transition: opacity 3s;
+    -o-transition: opacity 3s;
+    transition: opacity 3s;}
+.carousel .active.left {left:0;opacity:0;z-index:2;}
+.carousel .next {left:0;opacity:1;z-index:1;}
+
+.carousel-inner p {
+    font-size: 0.7em;
+}
+
+#main-content {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#login-form {
+    margin-top: 5em;
+}
+
+#carousel-home img{
+    height:100%;
+    width: 100%;
+}
+
+#login-form input {
+    margin-bottom: 1em;
+}
+
+#rp-btn-success {
+    background: #48c9b0;
+    color: white;
+    border: none;
+    text-shadow: none;
+    padding: 11px 0;
+    font-size: 18px;
+}
