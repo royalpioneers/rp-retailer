@@ -4,7 +4,7 @@ angular.module('rpRetailerApp').directive('rpCarouselHome', function() {
         scope: {'image': '='},
         link: function(scope, elm) {
             elm.carousel({
-                interval: 2000 // in milliseconds
+                interval: 3000 // in milliseconds
             });
         }
     }
